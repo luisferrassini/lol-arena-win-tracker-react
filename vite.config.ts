@@ -11,5 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/lol-arena-tracker-react/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/lol-arena-win-tracker-react/' : '/',
 })
